@@ -15,3 +15,7 @@ https://detail.1688.com/offer/623588992739.html
 https://item.taobao.com/item.htm?id=580652831242
 
 小巧的7.8g高压锂电还是要用的
+
+1.7g微型舵机
+
+https://item.taobao.com/item.htm?id=610628423127

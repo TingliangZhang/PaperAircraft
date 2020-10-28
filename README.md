@@ -22,4 +22,18 @@ https://item.taobao.com/item.htm?id=610628423127
 
 
 
+参考F3P和F1D
+
+F3P
+
+https://ultralight.tech/
+
+https://www.bilibili.com/video/BV1Yk4y1971W
+
+F1D
+
+https://www.bilibili.com/video/BV1Q5411s7f6
+
+
+
 可以考虑用共轴反桨，但是重量有点大，如果能开发微型共轴反桨，可以搞简单的直升机雪花。

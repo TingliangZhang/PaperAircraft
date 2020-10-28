@@ -19,3 +19,7 @@ https://item.taobao.com/item.htm?id=580652831242
 1.7g微型舵机
 
 https://item.taobao.com/item.htm?id=610628423127
+
+
+
+可以考虑用共轴反桨，但是重量有点大，如果能开发微型共轴反桨，可以搞简单的直升机雪花。

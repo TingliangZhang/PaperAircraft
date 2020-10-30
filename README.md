@@ -48,6 +48,8 @@ https://www.bilibili.com/video/BV1Q5411s7f6
 
 3.3V能否接3.8V+存疑
 
+[Arduino Nano 33 BLE](https://store.arduino.cc/usa/nano-33-ble)更便宜
+
 
 
 自己画：STM32 蓝牙 IMU
@@ -116,6 +118,16 @@ https://item.taobao.com/item.htm?id=566199133982
 
 
 直线电机：[AFRC-D1015直线舵机1.5克微型轻量迷你1.5g数字舵机](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.2afc2e8doX2vub&id=611726187447)
+
+尺寸:21.4 x 15.2 x 6.0 mm
+
+重量:1.5g(不含线)
+
+出线: JST1.25mm L=100 mm （红+，黑-，白S）；JST1.0mm,JR,Futaba L=100 mm （棕-，红+，橙S）
+
+工作电压:3.7~6.0V
+
+工厂默认行程为7mm/900~2100us
 
 
 

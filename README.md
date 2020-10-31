@@ -160,3 +160,41 @@ PCB板上外设：
 5. 电池电机舵机接口
 
 具体选型
+
+### DCDC芯片
+
+TI电源解决方案[选型](https://www.ti.com/design-resources/design-tools-simulation.html)网站
+
+[WEBENCH Power Designer](http://webench.ti.com/power-designer/switching-regulator)
+
+[TLV62569DBVR](https://item.szlcsc.com/153167.html) 2A
+
+[TLV62568DBVR](https://item.szlcsc.com/174600.html) 1A
+
+![image-20201031102509019](image-20201031102509019.png)
+
+这个很好用，能生成原理图和BOM。
+
+![image-20201031102606623](image-20201031102606623.png)
+
+甚至仿真
+
+![image-20201031103052499](image-20201031103052499.png)
+
+https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=C1D9EF81C082E009
+
+TLV62568ADRLR及其周边电路BOM
+
+[DC-DC芯片/TPS54331DR](https://item.szlcsc.com/10397.html)
+
+[4.7uF(475) ±10% 10V](https://item.szlcsc.com/2057.html)
+
+[10uF(106) ±10% 10V](https://item.szlcsc.com/20411.html)
+
+[453KΩ ±1%](https://item.szlcsc.com/26561.html)
+
+[100KΩ ±5%](https://item.szlcsc.com/16137.html)
+
+[2.2uH ±20% 47mΩ 2.6A](https://item.szlcsc.com/503279.html)
+
+## 气动设计

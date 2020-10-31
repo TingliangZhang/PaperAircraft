@@ -68,17 +68,6 @@ F 3 "~" H 6850 2600 50  0001 C CNN
 	1    6850 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Switching:TLV62568DBV TLV62568DBVR
-U 1 1 5F9D1940
-P 5550 2250
-F 0 "TLV62568DBVR" H 5550 2617 50  0000 C CNN
-F 1 "TLV62568DBV" H 5550 2526 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5600 2000 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv62568.pdf" H 5300 2700 50  0001 C CNN
-	1    5550 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 2150 6000 2150
 $Comp
@@ -170,4 +159,15 @@ $EndComp
 Wire Wire Line
 	6850 2100 6850 2150
 Connection ~ 6850 2150
+$Comp
+L Regulator_Switching:TLV62568DBV TLV62568DBVR
+U 1 1 5F9D1940
+P 5550 2250
+F 0 "TLV62568DBVR" H 5550 2617 50  0000 C CNN
+F 1 "TLV62568DBV" H 5550 2526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5600 2000 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62568.pdf" H 5300 2700 50  0001 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

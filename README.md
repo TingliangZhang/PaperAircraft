@@ -193,7 +193,7 @@ TLV62568ADRLR及其周边电路BOM
 
 [4.7uF(475) ±10% 10V](https://item.szlcsc.com/2057.html)
 
-[10uF(106) ±10% 10V](https://item.szlcsc.com/20411.html)
+[10uF(106) ±20% 6.3V](https://item.szlcsc.com/2043.html)
 
 [453KΩ ±1%](https://item.szlcsc.com/26561.html)
 
@@ -203,4 +203,81 @@ TLV62568ADRLR及其周边电路BOM
 
 
 
+[10uF(106) ±10% 10V](https://item.szlcsc.com/20411.html)无货更换为[10uF(106) ±20% 6.3V](https://item.szlcsc.com/2043.html)
+
+
+
+### STM32
+
+[STM32G031J6 ](https://www.st.com/en/microcontrollers-microprocessors/stm32g031j6.html)
+
+Internal 16 MHz RC with PLL option 这玩意内部时钟16M感觉不用加外部时钟了，除非用得到48MHz
+
+BOOT0用10k电阻拉低接地，boot from User Flash memory
+
+加一个RST按钮，按下拉低RST
+
+加入一个电源指示LED，以及一个接到PB9的LED
+
+烧写用4pin杜邦线母头，接0/3.3V/TX/RX，使用ST-Link烧写程序
+
+
+
+STM32G031J6及其周边电路BOM：
+
+[STM32G031K8T6](https://item.szlcsc.com/428991.html)
+
+[轻触开关 一型3x6x2.5有白ZD b拉伸白色按键 卷装](https://item.szlcsc.com/300030.html)
+
+[1KΩ(1001) ±1%](https://item.szlcsc.com/116573.html)
+
+[10KΩ(1002) ±1%](https://item.szlcsc.com/116572.html)
+
+[100nF(104) ±10% 50V](https://item.szlcsc.com/1943.html)
+
+[22Ω ±1%](https://item.szlcsc.com/24078.html)
+
+[翠绿LED](https://item.szlcsc.com/207066.html)
+
+可选晶振：[SMD3225 40.000MHZ 12PF 10PPM](https://item.szlcsc.com/420977.html)
+
+
+
+### 电机驱动
+
+[DRV8837CDSGR](https://item.szlcsc.com/213827.html)
+
+
+
+### IMU
+
+Arduino上面用的[LSM9DS1TR](https://www.digikey.cn/product-detail/zh/stmicroelectronics/LSM9DS1TR/497-14946-2-ND/4988083)在Digikey上面单个47.89块钱一个，太贵了
+
+[MPU-6050](https://item.szlcsc.com/24852.html)嘉立创商城里也是10块钱左右
+
+好贵，暂时不加了
+
+
+
+### 蓝牙
+
+都好贵，考虑ESP32了
+
+[ESP32-WROOM-32](https://item.szlcsc.com/84060.html)
+
+### 接口
+
+电池接口选择PH2.0公头：[B2B-PH-K-S(LF)(SN)](https://item.szlcsc.com/142630.html)
+
+电机接口 PH2.0公头：另一端需要母头压线端子 [PH2.0-T锡 编带](https://item.szlcsc.com/9392.html) 和胶壳 [胶壳 2.0mm 2Pin位](https://item.szlcsc.com/442393.html)
+
+舵机接口 用[1.25T-1-3A](https://item.szlcsc.com/11366.html) 封装选用的Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical
+
+烧写用4x2.54mm排针接在板上排母上[2.54x8.5排母 1x3P S/T](https://item.szlcsc.com/333717.html)
+
+Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com/93349.html)
+
+
+
 ## 气动设计
+

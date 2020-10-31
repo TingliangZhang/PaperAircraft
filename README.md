@@ -46,15 +46,11 @@ https://www.bilibili.com/video/BV1Q5411s7f6
 
 主控板：[Arduino Nano 33 BLE Sense](https://store.arduino.cc/usa/nano-33-ble-sense-with-headers)
 
-3.3V能否接3.8V+存疑
+3.3V能否接3.8V+存疑，考虑换DCDC芯片，但是[MPM3610](https://www.monolithicpower.cn/cn/mpm3610.html)的封装是节省空间的 QFN-20 (3mmx5mmx1.6mm)封装，很难找到相应的芯片以及更换。此路不通
+
+外接一块3.8v-3.3v DCDC转换模块，找了一圈淘宝，S
 
 [Arduino Nano 33 BLE](https://store.arduino.cc/usa/nano-33-ble)更便宜
-
-
-
-自己画：STM32 蓝牙 IMU
-
-or ESP32WROOM + IMU
 
 
 
@@ -141,3 +137,26 @@ https://item.taobao.com/item.htm?id=566199133982
 
 UBEC输出:5.2V 2A.（正负0.1V）
 
+
+
+## V2做PCB方案
+
+
+
+自己画：STM32 蓝牙 IMU
+
+or ESP32WROOM + IMU
+
+
+
+STM32选型：STM32G031K8T6 STM32G031J6M6
+
+PCB板上外设：
+
+1. 蓝牙透传
+2. IMU（目前可选）
+3. 3.8v-3.3v降压稳压芯片
+4. 空心杯电机驱动芯片
+5. 电池电机舵机接口
+
+具体选型

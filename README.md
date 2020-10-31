@@ -48,9 +48,13 @@ https://www.bilibili.com/video/BV1Q5411s7f6
 
 3.3V能否接3.8V+存疑，考虑换DCDC芯片，但是[MPM3610](https://www.monolithicpower.cn/cn/mpm3610.html)的封装是节省空间的 QFN-20 (3mmx5mmx1.6mm)封装，很难找到相应的芯片以及更换。此路不通
 
-外接一块3.8v-3.3v DCDC转换模块，找了一圈淘宝，S
+外接一块3.8v-3.3v DCDC转换模块，找了一圈淘宝，找到DM13B-3.3，可以升降压。
 
 [Arduino Nano 33 BLE](https://store.arduino.cc/usa/nano-33-ble)更便宜
+
+新解决方案！电调上面的UBEC，UBEC输出:5.2V 2A（正负0.1V），原本给接收机用的，可以用来驱动Arduino！
+
+
 
 
 

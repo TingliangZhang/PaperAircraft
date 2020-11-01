@@ -283,6 +283,10 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 
 
+![image-20201101201000768](image-20201101201000768.png)
+
+
+
 ## 控制
 
 ### 舵机AFRC-D1302
@@ -314,3 +318,15 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 servo.attach(pin, min, max)
 
 拔了之后就转了23333
+
+
+
+### 蓝牙
+
+The communications chipset on the Nano 33 BLE can be both a BLE and Bluetooth client and host device. Something pretty unique in the world of microcontroller platforms. If you want to see how easy it is to create a Bluetooth central or a peripheral device, explore the examples at our [ArduinoBLE library](https://www.arduino.cc/en/Reference/ArduinoBLE).
+
+参考[Arduino Bluetooth Basic Tutorial](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737?ref=platform&ref_id=424_popular___&offset=1)
+
+### IMU
+
+[Arduino_LSM9DS1](https://github.com/arduino-libraries/Arduino_LSM9DS1)Allows you to read the accelerometer, magnetometer and gyroscope values from the LSM9DS1 IMU on your Arduino Nano 33 BLE Sense.

@@ -291,6 +291,8 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 这俩都是333Hz，所以3ms周期，0.9-2.1ms对应-55到55 degree角度。
 
+裂开了，这玩意真的是3ms，不是20ms周期！
+
 ![img](6837821f-4ed0-45e9-89f9-2a78c8d01b16.jpg.webp)
 
 

@@ -44,7 +44,7 @@ https://www.bilibili.com/video/BV1Q5411s7f6
 
 激光切割卡纸
 
-
+BLE广播 mesh
 
 
 
@@ -340,6 +340,10 @@ The communications chipset on the Nano 33 BLE can be both a BLE and Bluetooth cl
 [Arduino BLE Accelerometer Tutorial for Beginners](https://rootsaid.com/arduino-ble-accelerometer-tutorial/)
 
 
+
+注意：电脑中打开串口监视器才启动蓝牙设备Bluetooth device active, waiting for connections...
+
+You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF Connect (Android), to interact with the services and characteristics created in this sketch.
 
 ### IMU
 

@@ -40,6 +40,14 @@ https://www.bilibili.com/video/BV1Q5411s7f6
 
 
 
+## 一些想法
+
+激光切割卡纸
+
+
+
+
+
 ## V1方案
 
 元件选型
@@ -327,6 +335,18 @@ The communications chipset on the Nano 33 BLE can be both a BLE and Bluetooth cl
 
 参考[Arduino Bluetooth Basic Tutorial](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737?ref=platform&ref_id=424_popular___&offset=1)
 
+[Arduino BLE Example Explained Step by Step](https://rootsaid.com/arduino-ble-example/)
+
+[Arduino BLE Accelerometer Tutorial for Beginners](https://rootsaid.com/arduino-ble-accelerometer-tutorial/)
+
+
+
 ### IMU
 
 [Arduino_LSM9DS1](https://github.com/arduino-libraries/Arduino_LSM9DS1)Allows you to read the accelerometer, magnetometer and gyroscope values from the LSM9DS1 IMU on your Arduino Nano 33 BLE Sense.
+
+
+
+### ESP32
+
+[ESP32 BLE Arduino](https://www.arduino.cc/reference/en/libraries/esp32-ble-arduino/)

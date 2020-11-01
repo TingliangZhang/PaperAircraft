@@ -281,3 +281,26 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 ## 气动设计
 
+
+
+## 控制
+
+### 舵机AFRC-D1302
+
+[AFRC-D1302 Micro 1.7g Large Torque Mini Digital Servo for RC Airplane Fixed Wing Helicopter - JST 1.0 Plug](https://www.banggood.com/AFRC-D1302-Micro-1_7g-Large-Torque-Mini-Digital-Servo-for-RC-Airplane-Fixed-Wing-Helicopter-p-1618521.html?ID=6285197&cur_warehouse=CN)
+
+这俩都是333Hz，所以3ms周期，0.9-2.1ms对应-55到55 degree角度。
+
+![img](6837821f-4ed0-45e9-89f9-2a78c8d01b16.jpg.webp)
+
+
+
+### 直线电机AFRC-D1015
+
+[AFRC-D10115 1.5g Linear Servo Miniature Micro Lightweight with Digital Controller for AFRC-D1015 Indoor 3D Small RC Aircraft - JR Plug](https://www.banggood.com/AFRC-D10115-1_5g-Linear-Servo-Miniature-Micro-Lightweight-with-Digital-Controller-for-AFRC-D1015-Indoor-3D-Small-RC-Aircraft-p-1619274.html?ID=520802&cur_warehouse=CN)
+
+![img](6f0d5e4f-dc05-4d69-a538-c0ae7f5bf4ef.png.webp)
+
+
+
+### 电机和驱动

@@ -16,7 +16,7 @@ int pos = 0;    // variable to store the servo position
 
 void setup() {
   myservo.attach(10);  // attaches the servo on pin 10 to the servo object
-  myservo.write(180);              // tell servo to go to position in variable 'pos'
+  myservo.write(0);              // tell servo to go to position in variable 'pos'
   delay(2000);                       // waits 1000ms
 }
 

@@ -345,6 +345,10 @@ The communications chipset on the Nano 33 BLE can be both a BLE and Bluetooth cl
 
 You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF Connect (Android), to interact with the services and characteristics created in this sketch.
 
+[Using Bluetooth 4.0 "classic" with Arduino Nano 33 BLE?](https://forum.arduino.cc/index.php?topic=649306.msg4378833#msg4378833)
+
+绝望，没有 bluetooth classic ，BLE连不上Bluetooth Electronics，所以没办法搞GUI。
+
 ### IMU
 
 [Arduino_LSM9DS1](https://github.com/arduino-libraries/Arduino_LSM9DS1)Allows you to read the accelerometer, magnetometer and gyroscope values from the LSM9DS1 IMU on your Arduino Nano 33 BLE Sense.

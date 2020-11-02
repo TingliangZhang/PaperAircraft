@@ -281,7 +281,13 @@ http://www.szdx-smart.com/
 
 邮票孔版本。
 
+Datasheet上面型号是，其实应该是Realtek RTL8762
+
 本来想用[BT24高性价比串口高速透传BLE5.1微安级功耗蓝牙模块迷你无线模块](https://item.taobao.com/item.htm?id=621716432187&_u=22q6uuhea153)中的 DX-BT24-M[邮票孔贴片款] 但是不能更改参数，波特率或名字，就不太行。
+
+
+
+
 
 ### 接口
 
@@ -315,7 +321,7 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 裂开了，这玩意真的是3ms，不是20ms周期！
 
-![img](6837821f-4ed0-45e9-89f9-2a78c8d01b16.jpg.webp)
+<img src="6837821f-4ed0-45e9-89f9-2a78c8d01b16.jpg.webp" alt="img" style="zoom:50%;" />
 
 
 
@@ -364,6 +370,8 @@ The communications chipset on the Nano 33 BLE can be both a BLE and Bluetooth cl
 
 You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF Connect (Android), to interact with the services and characteristics created in this sketch.
 
+<img src="image-20201102212305100.png" alt="image-20201102212305100" style="zoom: 33%;" />
+
 [Using Bluetooth 4.0 "classic" with Arduino Nano 33 BLE?](https://forum.arduino.cc/index.php?topic=649306.msg4378833#msg4378833)
 
 绝望，没有 bluetooth classic ，BLE连不上Bluetooth Electronics，所以没办法搞GUI。
@@ -382,7 +390,5 @@ You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF C
 
 ### 蓝牙模块
 
-
-
-
+模块未连接时为AT 模式，连接上后为透传模式
 

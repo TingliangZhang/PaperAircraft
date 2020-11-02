@@ -331,7 +331,7 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 正常电调的控制信号范围是1200us到2200us，一个周期20ms。
 
-用Servo库
+用[Servo](https://www.arduino.cc/reference/en/libraries/servo/)库
 
 servo.attach(pin, min, max)
 

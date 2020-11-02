@@ -17,6 +17,7 @@ void setup() {
 }
 
 void loop() {
-  myservo.write(120);              // tell servo to go to position
+//  myservo.write(120);              // tell servo to go to position 0 - 180
+  myservo.writeMicroseconds(1500);  // set servo to mid-point
 
 }

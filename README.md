@@ -287,6 +287,8 @@ Datasheet上面型号是，其实应该是Realtek RTL8762
 
 
 
+封装用SOIC Footprint Wizard画
+
 
 
 ### 接口

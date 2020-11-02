@@ -289,7 +289,7 @@ Datasheet上面型号是，其实应该是Realtek RTL8762
 
 封装用SOIC Footprint Wizard画
 
-
+![image-20201102221852284](image-20201102221852284.png)
 
 ### 接口
 

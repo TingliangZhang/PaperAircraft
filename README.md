@@ -329,15 +329,24 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 ### 电机和驱动
 
-正常电调的控制信号范围是1200us到2200us，一个周期20ms。
+正常电调的控制信号范围是1000us到2000us，一个周期20ms。
+
+买的这个是直流有刷电机电调
 
 用[Servo](https://www.arduino.cc/reference/en/libraries/servo/)库
 
-servo.attach(pin, min, max)
+```c
+servo.attach(pin, min, max);
+myservo.write(angle); // set servo to 0 - 180
+```
 
-拔了之后就转了23333
+拔了USB之后电机就转了23333
 
+更精确控制用
 
+```c
+myservo.writeMicroseconds(1500);  // set servo to mid-point
+```
 
 ### 蓝牙
 
@@ -372,3 +381,8 @@ You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF C
 
 
 ### 蓝牙模块
+
+
+
+
+

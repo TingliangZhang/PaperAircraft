@@ -273,6 +273,16 @@ Arduino上面用的[LSM9DS1TR](https://www.digikey.cn/product-detail/zh/stmicroe
 
 [ESP32-WROOM-32](https://item.szlcsc.com/84060.html)
 
+深圳大夏龙雀科技的蓝牙模块便宜点，十元以内
+
+http://www.szdx-smart.com/
+
+暂时选型[BT04-E低成本小体积无线串口透传蓝牙模组SPP3.0+BLE4.2蓝牙模块 ](https://item.taobao.com/item.htm?id=616730393533&_u=22q6uuheaa6e)
+
+邮票孔版本。
+
+本来想用[BT24高性价比串口高速透传BLE5.1微安级功耗蓝牙模块迷你无线模块](https://item.taobao.com/item.htm?id=621716432187&_u=22q6uuhea153)中的 DX-BT24-M[邮票孔贴片款] 但是不能更改参数，波特率或名字，就不太行。
+
 ### 接口
 
 电池接口选择PH2.0公头：[B2B-PH-K-S(LF)(SN)](https://item.szlcsc.com/142630.html)
@@ -358,3 +368,7 @@ You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF C
 ### ESP32
 
 [ESP32 BLE Arduino](https://www.arduino.cc/reference/en/libraries/esp32-ble-arduino/)
+
+
+
+### 蓝牙模块

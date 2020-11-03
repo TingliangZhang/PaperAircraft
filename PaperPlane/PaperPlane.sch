@@ -575,8 +575,6 @@ Wire Wire Line
 	5300 3300 6050 3300
 Wire Wire Line
 	3250 3150 3400 3150
-Wire Wire Line
-	3250 3050 3950 3050
 Text Label 3400 3150 0    50   ~ 0
 USART2-RX
 Text Label 3400 3050 0    50   ~ 0
@@ -931,4 +929,12 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_
 	1    10050 4550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3250 2950 3400 2950
+Text Label 3400 2950 0    50   ~ 0
+SWDIO
+Text Label 4500 3050 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	3250 3050 4500 3050
 $EndSCHEMATC

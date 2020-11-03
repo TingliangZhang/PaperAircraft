@@ -403,3 +403,24 @@ You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF C
 ## 程序编写
 
 Arduino端的程序就是读取UART，操控舵机和电机，手机端的Bluetooth Electronics可以定义UI推杆和摇杆，并且
+
+
+
+
+
+## 涉及软件
+
+Kicad
+
+[Fritzing](https://fritzing.org/)
+
+官网下载要8欧，直接Github[fritzing-app](https://github.com/fritzing/fritzing-app)中找到[CD-548](https://github.com/fritzing/fritzing-app/releases/tag/CD-548)发布0.9.5
+
+http://fritzing.org/download/0.9.3b/windows-64bit/fritzing.0.9.3b.64.pc.zip
+
+![image-20201103195108149](image-20201103195108149.png)
+
+![image-20201103200144583](image-20201103200144583.png)
+
+
+

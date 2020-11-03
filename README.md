@@ -360,7 +360,11 @@ myservo.writeMicroseconds(1500);  // set servo to mid-point
 
 The communications chipset on the Nano 33 BLE can be both a BLE and Bluetooth client and host device. Something pretty unique in the world of microcontroller platforms. If you want to see how easy it is to create a Bluetooth central or a peripheral device, explore the examples at our [ArduinoBLE library](https://www.arduino.cc/en/Reference/ArduinoBLE).
 
-参考[Arduino Bluetooth Basic Tutorial](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737?ref=platform&ref_id=424_popular___&offset=1)
+classic参考
+
+[Arduino Bluetooth Basic Tutorial](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737?ref=platform&ref_id=424_popular___&offset=1)
+
+BLE参考
 
 [Arduino BLE Example Explained Step by Step](https://rootsaid.com/arduino-ble-example/)
 
@@ -394,3 +398,8 @@ You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF C
 
 模块未连接时为AT 模式，连接上后为透传模式
 
+
+
+## 程序编写
+
+Arduino端的程序就是读取UART，操控舵机和电机，手机端的Bluetooth Electronics可以定义UI推杆和摇杆，并且

@@ -325,7 +325,13 @@ Futaba母头用3x2.54mm排针连接 [2.54-1*3P正弯针](https://item.szlcsc.com
 
 <img src="6837821f-4ed0-45e9-89f9-2a78c8d01b16.jpg.webp" alt="img" style="zoom:50%;" />
 
+太邪教了，换一个正常点的舵机：[2.2克超微型数字舵机 PZ-15318](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.334a2e8dFbH5WX&id=591162573182&_u=32q6uuhe6ed0)
 
+PWM, 50HZ， 高电平时间在1~2ms
+
+工作电压：2.5V-4.8V
+
+注意不到5V，不能接到Arduino5V端口。
 
 ### 直线电机AFRC-D1015
 

@@ -19,6 +19,7 @@ int GotInt = 0; //GetInt function return
 int x[3] = {0,0,0};
 int y[3] = {0,0,0};
 int a[3] = {0,0,0};
+int count = 0; //count for Input to AXY
 
 void setup() {
   Serial.begin(9600);
@@ -46,22 +47,56 @@ void loop() {
 //     Serial.write(Serial1.read());
      
      char Input = Serial1.read();
+    
+     switch(count){
+        case 1:
+          x[0] = Serial1.read();
+          count++;
+          break;
+        case 2:
+          x[1] = Serial1.read();
+          count++;
+          break;
+        case 3:
+          x[2] = Serial1.read();
+          X = int(x[1])*10+int(x[2]);
+          count=0;
+          break;
+        case 4:
+          y[0] = Serial1.read();
+          count++;
+          break;
+        case 5:
+          y[1] = Serial1.read();
+          count++;
+          break;
+        case 6:
+          y[2] = Serial1.read();
+          Y = int(y[1])*10+int(y[2]);
+          count=0;
+          break;
+        case 7:
+          a[0] = Serial1.read();
+          count++;
+          break;
+        case 8:
+          a[1] = Serial1.read();
+          count++;
+          break;
+        case 9:
+          a[2] = Serial1.read();
+          A = int(a[1])*10+int(a[2]);
+          count=0;
+          break;
+     }
      if(Input=='X'){
-         x[0] = Serial1.read();
-         x[1] = Serial1.read();
-         x[2] = Serial1.read();
-         X = int(x[1])*10+int(x[2]);
-         Serial1.read();
-         y[0] = Serial1.read();
-         y[1] = Serial1.read();
-         y[2] = Serial1.read();
-         Y = int(y[1])*10+int(y[2]);
+         count=1;
+     }
+     if(Input=='Y'){
+         count=4;
      }
      if(Input=='A'){
-         a[0] = Serial1.read();
-         a[1] = Serial1.read();
-         a[2] = Serial1.read();
-         A = int(a[1])*10+int(a[2]);
+        count=7;
      }
      String Send = String(A)+' '+String(X)+' '+String(Y)+' ';
      Serial.println(Send);

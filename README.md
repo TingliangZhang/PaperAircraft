@@ -408,7 +408,9 @@ You can use a generic BLE central app, like LightBlue (iOS and Android) or nRF C
 
 ## 程序编写
 
-Arduino端的程序就是读取UART，操控舵机和电机，手机端的Bluetooth Electronics可以定义UI推杆和摇杆，并且
+Arduino端的程序就是读取UART，操控舵机和电机，手机端的Bluetooth Electronics可以定义UI推杆和摇杆，并且可以定义开始位和结束位。
+
+Serial是USB，Serial1是D0 and D1即TX RX。
 
 
 

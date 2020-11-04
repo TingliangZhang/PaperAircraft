@@ -50,41 +50,41 @@ void loop() {
     
      switch(count){
         case 1:
-          x[0] = Serial1.read();
+          x[0] = Input;
           count++;
           break;
         case 2:
-          x[1] = Serial1.read();
+          x[1] = Input;
           count++;
           break;
         case 3:
-          x[2] = Serial1.read();
+          x[2] = Input;
           X = int(x[1])*10+int(x[2]);
           count=0;
           break;
         case 4:
-          y[0] = Serial1.read();
+          y[0] = Input;
           count++;
           break;
         case 5:
-          y[1] = Serial1.read();
+          y[1] = Input;
           count++;
           break;
         case 6:
-          y[2] = Serial1.read();
+          y[2] = Input;
           Y = int(y[1])*10+int(y[2]);
           count=0;
           break;
         case 7:
-          a[0] = Serial1.read();
+          a[0] = Input;
           count++;
           break;
         case 8:
-          a[1] = Serial1.read();
+          a[1] = Input;
           count++;
           break;
         case 9:
-          a[2] = Serial1.read();
+          a[2] = Input;
           A = int(a[1])*10+int(a[2]);
           count=0;
           break;

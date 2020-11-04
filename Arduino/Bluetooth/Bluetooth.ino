@@ -13,7 +13,7 @@ void setup() {
 
 //  myservoX.attach(2);  // attaches the servo on pin D2 to the servo object
 //  myservoY.attach(3);  // attaches the servo on pin D3 to the servo object
-  mymotor.attach(10);  // attaches the motor on pin D10 to the servo object
+//  mymotor.attach(10);  // attaches the motor on pin D10 to the servo object
 }
 
 void loop() {

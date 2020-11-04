@@ -39,9 +39,8 @@ void loop() {
 //    Serial.print(Input);   // read it and send it out Serial (USB)
 //    Serial.print("\n");        //New line 
 
-//Serial.write(Serial1.read());
+   Serial.write(Serial1.read());
 
-      Serial.write(Serial.parseInt());
   }
 }
 

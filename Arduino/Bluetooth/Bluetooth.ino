@@ -59,7 +59,7 @@ void loop() {
           break;
         case 3:
           x[2] = Input;
-          X = int(x[1])*10+int(x[2]);
+          X = int(x[1])*10+int(x[2])-528;
           count=0;
           break;
         case 4:
@@ -72,7 +72,7 @@ void loop() {
           break;
         case 6:
           y[2] = Input;
-          Y = int(y[1])*10+int(y[2]);
+          Y = int(y[1])*10+int(y[2])-528;
           count=0;
           break;
         case 7:
@@ -85,7 +85,7 @@ void loop() {
           break;
         case 9:
           a[2] = Input;
-          A = int(a[1])*10+int(a[2]);
+          A = int(a[1])*10+int(a[2])-528;
           count=0;
           break;
      }
@@ -99,7 +99,7 @@ void loop() {
         count=7;
      }
      //I don't know why 528...
-     String Send = String(A-528)+' '+String(X-528)+' '+String(Y-528)+' ';
+     String Send = String(A)+' '+String(X)+' '+String(Y)+' ';
      Serial.println(Send);
 
   }

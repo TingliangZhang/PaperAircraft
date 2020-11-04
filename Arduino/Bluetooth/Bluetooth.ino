@@ -98,7 +98,8 @@ void loop() {
      if(Input=='A'){
         count=7;
      }
-     String Send = String(A)+' '+String(X)+' '+String(Y)+' ';
+     //I don't know why 528...
+     String Send = String(A-528)+' '+String(X-528)+' '+String(Y-528)+' ';
      Serial.println(Send);
 
   }

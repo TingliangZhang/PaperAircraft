@@ -416,7 +416,7 @@ Serial是USB，Serial1是D0 and D1即TX RX。
 
 一个Servo库的bug，我调了半天最后，更新了一下下Servo库，就好了。。。
 
-
+AXY算出来多了528......原因未知。先减528再说。。。。。
 
 ## 涉及软件
 

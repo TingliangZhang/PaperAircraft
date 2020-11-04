@@ -35,9 +35,13 @@ void loop() {
 
 
   if (Serial1.available()) {     // If anything comes in Serial1 (pins 0 & 1)
-    char Input = Serial1.read();
-    Serial.print(Input);   // read it and send it out Serial (USB)
-    Serial.print("\n");        //New line 
+//    char Input = Serial1.read();
+//    Serial.print(Input);   // read it and send it out Serial (USB)
+//    Serial.print("\n");        //New line 
+
+//Serial.write(Serial1.read());
+
+      Serial.write(Serial.parseInt());
   }
 }
 

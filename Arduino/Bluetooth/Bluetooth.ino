@@ -25,9 +25,9 @@ void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
 
-//  myservoX.attach(2);  // attaches the servo on pin D2 to the servo object
-//  myservoY.attach(3);  // attaches the servo on pin D3 to the servo object
-//  mymotor.attach(10);  // attaches the motor on pin D10 to the servo object
+  myservoX.attach(2);  // attaches the servo on pin D2 to the servo object
+  myservoY.attach(3);  // attaches the servo on pin D3 to the servo object
+  mymotor.attach(10);  // attaches the motor on pin D10 to the servo object
 }
 
 void loop() {
@@ -101,6 +101,9 @@ void loop() {
      //I don't know why 528...
      String Send = String(A)+' '+String(X)+' '+String(Y)+' ';
      Serial.println(Send);
+     myMotor(A);
+     myServo(X,Y);
+     
 
   }
 }

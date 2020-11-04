@@ -16,6 +16,10 @@ int C = 0; //Reverse
 
 int GotInt = 0; //GetInt function return
 
+int x[3] = {0,0,0};
+int y[3] = {0,0,0};
+int a[3] = {0,0,0};
+
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
@@ -35,11 +39,31 @@ void loop() {
 
 
   if (Serial1.available()) {     // If anything comes in Serial1 (pins 0 & 1)
-//    char Input = Serial1.read();
-//    Serial.print(Input);   // read it and send it out Serial (USB)
-//    Serial.print("\n");        //New line 
+//     char Input = Serial1.read();
+//     Serial.print(Input);   // read it and send it out Serial (USB)
+//     Serial.print("\n");        //New line 
 
-   Serial.write(Serial1.read());
+//     Serial.write(Serial1.read());
+     
+     char Input = Serial1.read();
+     if(Input=='X'){
+         x[0] = Serial1.read();
+         x[1] = Serial1.read();
+         x[2] = Serial1.read();
+         X = int(x[1])*10+int(x[2]);
+         Serial1.read();
+         y[0] = Serial1.read();
+         y[1] = Serial1.read();
+         y[2] = Serial1.read();
+         Y = int(y[1])*10+int(y[2]);
+     }
+     if(Input=='A'){
+         a[0] = Serial1.read();
+         a[1] = Serial1.read();
+         a[2] = Serial1.read();
+         A = int(a[1])*10+int(a[2]);
+     }
+     Serial.write(A);
 
   }
 }

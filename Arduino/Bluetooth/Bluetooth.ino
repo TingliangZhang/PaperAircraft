@@ -14,6 +14,8 @@ int Y = 0; //Right Servo Control
 int B = 0; //Reverse
 int C = 0; //Reverse
 
+int GotInt = 0; //GetInt function return
+
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);

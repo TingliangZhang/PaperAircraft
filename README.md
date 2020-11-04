@@ -434,3 +434,8 @@ http://fritzing.org/download/0.9.3b/windows-64bit/fritzing.0.9.3b.64.pc.zip
 
 
 
+## 调试
+
+螺旋桨or电风扇
+
+竟然螺旋桨是反着吹的。我说怎么打死飞不起来。。。

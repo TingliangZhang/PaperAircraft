@@ -414,6 +414,8 @@ Serial是USB，Serial1是D0 and D1即TX RX。
 
 
 
+一个Servo库的bug，我调了半天最后，更新了一下下Servo库，就好了。。。
+
 
 
 ## 涉及软件

@@ -7,6 +7,13 @@ Servo myservoY;  // create servo object to control a servo
 Servo mymotor;   // create servo object to control a motor
 // twelve servo objects can be created on most boards
 
+int A = 0; //Motor Speed Control
+int X = 0; //Left Servo Control
+int Y = 0; //Right Servo Control
+
+int B = 0; //Reverse
+int C = 0; //Reverse
+
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
@@ -17,12 +24,18 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available()) {      // If anything comes in Serial (USB),
-    Serial1.write(Serial.read());   // read it and send it out Serial1 (pins 0 & 1)
-  }
+//  if (Serial.available()) {      // If anything comes in Serial (USB),
+//    Serial1.write(Serial.read());   // read it and send it out Serial1 (pins 0 & 1)
+//  }
+//  if (Serial1.available()) {     // If anything comes in Serial1 (pins 0 & 1)
+//    Serial.write(Serial1.read());   // read it and send it out Serial (USB)
+//  }
+
 
   if (Serial1.available()) {     // If anything comes in Serial1 (pins 0 & 1)
-    Serial.write(Serial1.read());   // read it and send it out Serial (USB)
+    char Input = Serial1.read();
+    Serial.print(Input);   // read it and send it out Serial (USB)
+    Serial.print("\n");        //New line 
   }
 }
 
@@ -42,6 +55,8 @@ void myMotor(int MotorSpeed){
   mymotor.writeMicroseconds(MotorSpeedms);
 }
 
-void getdataA(){
-  
+
+// Get int between the indicator char and space from a string
+int GetInt(char indicator, String In){
+  return GotInt;
   }

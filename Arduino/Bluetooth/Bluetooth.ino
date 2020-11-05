@@ -60,6 +60,7 @@ void loop() {
         case 3:
           x[2] = Input;
           X = int(x[1])*10+int(x[2])-528;
+          myServoX(X);
           count=0;
           break;
         case 4:
@@ -73,6 +74,7 @@ void loop() {
         case 6:
           y[2] = Input;
           Y = int(y[1])*10+int(y[2])-528;
+          myServoY(Y);
           count=0;
           break;
         case 7:
@@ -86,6 +88,7 @@ void loop() {
         case 9:
           a[2] = Input;
           A = int(a[1])*10+int(a[2])-528;
+          myMotor(A);
           count=0;
           break;
      }
@@ -101,8 +104,9 @@ void loop() {
      //I don't know why 528...
      String Send = String(A)+' '+String(X)+' '+String(Y)+' ';
      Serial.println(Send);
-     myMotor(A);
-     myServo(X,Y);
+     
+//     myMotor(A);
+//     myServo(X,Y);
      
 
   }
@@ -114,6 +118,20 @@ void myServo(int ServoSpeedX, int ServoSpeedY){
   int ServoSpeedmsY = ServoSpeedY*10+1000;
   // ServoSpeedms Rage 1000-2000
   myservoX.writeMicroseconds(ServoSpeedmsX);  // 1500 to set servo to mid-point
+  myservoY.writeMicroseconds(ServoSpeedmsY);  // 1500 to set servo to mid-point
+}
+
+//ServoSpeed X 0-100 int
+void myServoX(int ServoSpeedX){
+  int ServoSpeedmsX = ServoSpeedX*10+1000;
+  // ServoSpeedms Rage 1000-2000
+  myservoX.writeMicroseconds(ServoSpeedmsX);  // 1500 to set servo to mid-point
+}
+
+//ServoSpeed Y 0-100 int
+void myServoY(int ServoSpeedY){
+  int ServoSpeedmsY = ServoSpeedY*10+1000;
+  // ServoSpeedms Rage 1000-2000
   myservoY.writeMicroseconds(ServoSpeedmsY);  // 1500 to set servo to mid-point
 }
 

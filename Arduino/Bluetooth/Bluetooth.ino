@@ -137,13 +137,18 @@ void myServoY(int ServoSpeedY){
 
 //MotorSpeed 0-100 int
 void myMotor(int MotorSpeed){
-  int MotorSpeedms = MotorSpeed*10+1000;
-  // MotorSpeedms Rage 1000-2000
-  mymotor.writeMicroseconds(MotorSpeedms);
+  if(MotorSpeed==0){
+    mymotor.writeMicroseconds(0);
+    }
+  else{
+    int MotorSpeedms = MotorSpeed*5+1800;
+    // MotorSpeedms Rage 1800-2300
+    mymotor.writeMicroseconds(MotorSpeedms);
+    }
 }
 
 
 // Get int between the indicator char and space from a string
-int GetInt(char indicator, String In){
-  return GotInt;
-  }
+//int GetInt(char indicator, String In){
+//  return GotInt;
+//  }

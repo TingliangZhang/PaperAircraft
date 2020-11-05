@@ -455,3 +455,27 @@ http://fritzing.org/download/0.9.3b/windows-64bit/fritzing.0.9.3b.64.pc.zip
 破案了：75的时候电调才开始被驱动，76的时候信号灯才亮。
 
 尝试发现信号范围竟然是1800-2300us。。。
+
+
+
+### Bluetooth Electronics APP内设置
+
+![image-20201105214049299](image-20201105214049299.png)
+
+![image-20201105214056362](image-20201105214056362.png)
+
+## V2成果
+
+<img src="image-20201105214217281.png" alt="image-20201105214217281" style="zoom:10%;" />
+
+<img src="image-20201105214456001.png" alt="image-20201105214456001" style="zoom:10%;" />
+
+<img src="image-20201105214533058.png" alt="image-20201105214533058" style="zoom: 10%;" />
+
+<img src="image-20201105214628094.png" alt="image-20201105214628094" style="zoom:25%;" />
+
+## Seeeduino XIAO
+
+[Seeeduino XIAO - Arduino Microcontroller - SAMD21 Cortex M0+](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html)
+
+This is the [Wiki](http://wiki.seeedstudio.com/Seeeduino-XIAO/) of the Seeeduino XIAO

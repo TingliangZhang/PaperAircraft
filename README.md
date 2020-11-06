@@ -496,12 +496,12 @@ This is the [Wiki](http://wiki.seeedstudio.com/Seeeduino-XIAO/) of the Seeeduino
 
 控制成本到10元级别，选用STM32G031K8T6或ESP32-WROOM-32，DRV8837C，TLV62568DBV
 
-| 品名             | 目前购买价（RMB） | 量产价 |
-| ---------------- | ----------------- | ------ |
-| ICM-20600        | 1.38              |        |
-| STM32G031K8T6    | 4.81              |        |
-| DRV8837C         | 0.5561            |        |
-| TLV62568DBV      | 1.0181            |        |
-| 其他连接件3D打印 | 2                 |        |
-| PCB              | 1                 |        |
+| 品名                                                         | 目前购买价（RMB） | 量产价 |
+| ------------------------------------------------------------ | ----------------- | ------ |
+| [ICM-20600](https://invensense.tdk.com/products/motion-tracking/6-axis/icm-20600/) | 1.38              |        |
+| STM32G031K8T6                                                | 4.81              |        |
+| DRV8837C                                                     | 0.5561            |        |
+| TLV62568DBV                                                  | 1.0181            |        |
+| 其他连接件3D打印                                             | 2                 |        |
+| PCB                                                          | 1                 |        |
 

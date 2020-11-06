@@ -456,7 +456,7 @@ http://fritzing.org/download/0.9.3b/windows-64bit/fritzing.0.9.3b.64.pc.zip
 
 尝试发现信号范围竟然是1800-2300us。。。
 
-
+20201106连不上BT04-E问题解决：先配对，之后用nRF Connect连接一次，关闭程序后，用Bluetooth Electronics连接，不行就重启
 
 ### Bluetooth Electronics APP内设置
 
@@ -479,3 +479,29 @@ http://fritzing.org/download/0.9.3b/windows-64bit/fritzing.0.9.3b.64.pc.zip
 [Seeeduino XIAO - Arduino Microcontroller - SAMD21 Cortex M0+](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html)
 
 This is the [Wiki](http://wiki.seeedstudio.com/Seeeduino-XIAO/) of the Seeeduino XIAO
+
+
+
+## PCB设计
+
+![image-20201106110209299](image-20201106110209299.png)
+
+![image-20201106110248444](image-20201106110248444.png)
+
+![image-20201106110639402](image-20201106110639402.png)
+
+
+
+## V3成本估计
+
+控制成本到10元级别，选用STM32G031K8T6或ESP32-WROOM-32，DRV8837C，TLV62568DBV
+
+| 品名             | 目前购买价（RMB） | 量产价 |
+| ---------------- | ----------------- | ------ |
+| ICM-20600        | 1.38              |        |
+| STM32G031K8T6    | 4.81              |        |
+| DRV8837C         | 0.5561            |        |
+| TLV62568DBV      | 1.0181            |        |
+| 其他连接件3D打印 | 2                 |        |
+| PCB              | 1                 |        |
+

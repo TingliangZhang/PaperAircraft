@@ -1,7 +1,19 @@
 # PaperAircraft
 https://en.wikipedia.org/wiki/Paper_plane
 
-纸飞机
+
+
+## V3版本
+
+全新版本
+
+电磁舵机+8mm空心杯+1S小锂电+电磁舵机接收机（集成5A电调）
+
+
+
+
+
+## 纸飞机
 
 
 https://www.poweruptoys.com/

@@ -9,7 +9,13 @@ https://en.wikipedia.org/wiki/Paper_plane
 
 电磁舵机+8mm空心杯+1S小锂电+电磁舵机接收机（集成5A电调）
 
+2.4G带两路电磁舵驱动 5通道微型接收机 Futaba S-FHSS
 
+https://item.taobao.com/item.htm?id=544533760584
+
+遥控器兼容 S-FHSS即可
+
+https://futabausa.com/product/14sg/
 
 
 
